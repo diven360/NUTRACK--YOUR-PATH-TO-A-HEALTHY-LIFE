@@ -1,0 +1,135 @@
+$color-shadow: #babecc;
+$color-white: #fff;
+
+.nuReportCardsCont {
+    z-index: 3;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    overflow: scroll;
+    margin: 0;
+    width: 16em;
+    height: 85vh;
+    left: 0;
+    top: 0.5em;
+}
+
+.nuReport-info {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 6em;
+    margin-top: -10%;
+}
+
+.nuReport-title {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.nuReportCard {
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: -5px -5px 20px $color-white, 5px 5px 20px $color-shadow;
+    display: block;
+    transition: 0.5;
+    text-align: left;
+    border: $color-white 1px solid;
+    height: 7.2em;
+    margin: 5%;
+    overflow: hidden;
+}
+
+.report-delete-btn {
+    z-index: 1;
+    position: absolute;
+    border: 1px outset #cb2431;
+    cursor: pointer;
+    padding: 1px 4px 1px 4px;
+    font-weight: 700;
+    color: #cb2431;
+    right: 5px;
+    top: 5px;
+}
+
+.report-delete-btn:hover {
+    background-color: #cb2431;
+    color: #fff;
+}
+
+.report-card-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.nuReportCard:hover {
+    background: rgba(0, 176, 177, 0.2);
+}
+
+.nuReportCard-inner-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    height: stretch !important;
+}
+
+.report-info-div {
+    position: relative;
+    box-sizing: border-box;
+    top: 1.2em;
+    left: 2.2em;
+}
+
+.report-name {
+    position: relative;
+    box-sizing: border-box;
+    width: 65%;
+    color: #00b0b1;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1280px) {
+    .nuReportCardsCont {
+        position: relative;
+        box-sizing: border-box;
+        display: inline-block;
+        float: none;
+        margin: 0;
+        width: 80%;
+        height: 12em;
+        left: 0;
+        top: 0.5em;
+    }
+
+    .nuReportCard {
+        position: relative;
+        display: inline-block;
+        width: 15em;
+        text-align: left;
+        height: 7.2em;
+        margin: 1.5%;
+    }
+}
+
+@media only screen and (max-width: 1075px) {
+    .nuReport-info {
+        position: relative;
+        box-sizing: border-box;
+        display: block;
+        top: 6em;
+        margin-top: -5%;
+        margin-bottom: 3%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .nuReport-info {
+        position: relative;
+        box-sizing: border-box;
+        display: block;
+        top: 6em;
+        margin-top: -5%;
+        margin-bottom: 0%;
+    }
+}

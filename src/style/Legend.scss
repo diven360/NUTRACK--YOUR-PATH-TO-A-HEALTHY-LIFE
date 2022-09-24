@@ -1,0 +1,55 @@
+.legendCont {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 18em;
+    bottom: 8em;
+    left: 8%;
+}
+
+.legendTitle {
+    font-weight: 600;
+}
+
+.legendCont > div {
+    margin: 5px;
+}
+
+.carbLegendIcon,
+.proteinLegendIcon,
+.fatLegendIcon,
+.fiberLegendIcon {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    margin: 1px 5px 1px 1px;
+}
+
+.carbLegendIcon {
+    background-color: #e96255;
+}
+
+.proteinLegendIcon {
+    background-color: #efc319;
+}
+
+.fatLegendIcon {
+    background-color: #96c93d;
+}
+
+.fiberLegendIcon {
+    background-color: #58a5bd;
+}
+
+@media only screen and (max-width: 608px) {
+    .legendCont {
+        // background-color: lightslategrey;
+        width: 17em;
+        left: 7%;
+        bottom: 0%;
+        margin-top: 3em;
+    }
+}

@@ -1,0 +1,26 @@
+.auth-title {
+    color: #00b0b1 !important;
+}
+
+.verify-title {
+    color: #00b0b1 !important;
+    font-size: 28px;
+}
+
+.errorMessage-auth {
+    position: relative;
+    box-sizing: border-box;
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    top: 2.3em;
+}
+
+.successMessage-auth {
+    position: relative;
+    box-sizing: border-box;
+    color: #00b0b1;
+    font-size: 20px;
+    font-weight: 500;
+    top: 2.3em;
+}

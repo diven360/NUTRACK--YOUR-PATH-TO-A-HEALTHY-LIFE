@@ -1,0 +1,104 @@
+.main-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.main-passage-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.main-title {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 52px;
+    margin-top: 15%;
+}
+
+.main-paragraph {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+    width: 12em;
+}
+
+.btn-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.get-started-btn {
+    display: inline-block !important;
+    width: 15em !important;
+    margin-top: 2em;
+}
+
+@keyframes NuAnimation {
+    0% {
+        transform: rotate(-3deg);
+        width: 4.4em;
+    }
+    50% {
+        width: 4.4em;
+    }
+    100% {
+        transform: rotate(0deg);
+        width: 1.27em;
+    }
+}
+
+@keyframes TrackAnimation {
+    0% {
+        width: 190px;
+    }
+    50% {
+        width: 190px;
+    }
+    100% {
+        // width: 2.57em;
+        width: 136px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    @keyframes TrackAnimation {
+        0% {
+            width: 190px;
+        }
+        50% {
+            width: 190px;
+        }
+        100% {
+            // width: 2.45em;
+            width: 129px;
+        }
+    }
+}
+
+.NU {
+    background-color: #00b0b1;
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    margin: 2px;
+    width: 4.4em;
+    animation: 2.5s 1 NuAnimation forwards;
+}
+
+.TRACK {
+    position: relative;
+    box-sizing: border-box;
+    margin: 2px;
+    // width: 4em;
+    width: 190px;
+    display: inline-block;
+    overflow: hidden;
+    animation: 2.5s 1 TrackAnimation forwards;
+}
