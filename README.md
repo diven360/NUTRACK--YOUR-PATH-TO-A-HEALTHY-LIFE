@@ -1,7 +1,6 @@
 # NUTRACK--YOUR-PATH-TO-A-HEALTHY-LIFE
 
 # Codeissance_38_SoftwareGiants
-# NUTRACK -> YOUR PATH TO A HEALTHY LIFE
 
 Recent studies have reported that globally, more than 1.9 billion adults are overweight and 650 million are obese. Approximately 2.8 million deaths are reported as a result of being overweight or obese. 
 Due to the consumption of energy dense food (i.e. unhealthy food habits), sedentary life style, lack of health care services and financial support, the developing countries are facing high risk of obesity and their adverse consequences (i.e. diabetes, ischemic heart disease, etc.). 
